@@ -21,6 +21,7 @@ body {
   font-weight: bold;
   transition: all ease 0.2s;
   letter-spacing: 1.5px;
+  cursor: pointer;
 }
 
 .container button:hover {
