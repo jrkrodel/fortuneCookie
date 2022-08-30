@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -15,6 +15,20 @@ body {
   margin-top: 20px;
   width: 250px;
   padding: 8px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transition: all ease 0.2s;
+}
+
+.container button:hover {
+  background-color: black;
+  color: white;
+}
+
+.container button:active {
+  transform: scale(0.95);
 }
 
 #fortune {
