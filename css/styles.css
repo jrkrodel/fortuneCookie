@@ -1,0 +1,22 @@
+html,
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.container button {
+  margin-top: 20px;
+  width: 250px;
+  padding: 8px;
+}
+
+#fortune {
+  font-size: 30px;
+}
